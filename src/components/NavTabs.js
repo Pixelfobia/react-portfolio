@@ -1,29 +1,54 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 
-function NavTabs(props) {
+function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a href="#home" onClick={() => props.handlePageChange("Home")} className="nav-link">
-          Home
-        </a>
+        <NavLink
+        to="/react-portfolio/"
+        end
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+      }
+      >
+      Home
+      </NavLink>
       </li>
       <li className="nav-item">
-        <a href="#about" onClick={() => props.handlePageChange("About")} className="nav-link">
-          About
-        </a>
+        <NavLink
+        to="/react-portfolio/about"
+        end
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+      }
+      >
+      About
+      </NavLink>
       </li>
       <li className="nav-item">
-        <a href="#blog" onClick={() => props.handlePageChange("Blog")} className="nav-link">
-          Blog
-        </a>
+        <NavLink
+        to="/react-portfolio/discover"
+        end
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+      }
+      >
+      Discover
+      </NavLink>
       </li>
       <li className="nav-item">
-        <a href="#contact" onClick={() => props.handlePageChange("Contact")} className="nav-link">
-          Contact
-        </a>
+        <NavLink
+        to="/react-portfolio/search"
+        end
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+      }
+      >
+      search
+      </NavLink>
       </li>
-    </ul>
+      </ul>
   );
 }
 
