@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavTabs />
+        <Header />
         {/* Define routes using Route */}
         <Routes basename="react-portfolio">
           <Route path="/react-portfolio/" element={<Home />} />
