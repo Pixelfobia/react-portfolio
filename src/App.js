@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
+import Header from "./components/Header";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Discover from "./components/pages/Search";
-import Search from "./components/pages/Search";
+import Gallery from "./components/pages/Gallery";
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
@@ -14,9 +13,8 @@ function App() {
         {/* Define routes using Route */}
         <Routes basename="react-portfolio">
           <Route path="/react-portfolio/" element={<Home />} />
-          <Route path="/react-portfolio/about" element={<About />} />
-          <Route path="/react-portfolio/discover" element={<Discover />} />
-          <Route path="/react-portfolio/search" element={<Search />} />
+          <Route path="/react-portfolio/gallery" element={<Gallery />} />
+          <Route path="/react-portfolio/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
