@@ -11000,7 +11000,7 @@ header nav ul li a:hover {
 }
 
 .port-hero::after {
-  content: url("./assets/images/front-brush-diamonds.png");
+  content: url("./images/front-brush-diamonds.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -11015,7 +11015,11 @@ header nav ul li a:hover {
 }
 
 .port-hero--img {
-  z-index: 3;
+  width: 80%;
+  height: auto;
+  /* background-image: url("./images/me_cover.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 /* Tablet */

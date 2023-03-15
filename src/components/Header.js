@@ -28,7 +28,7 @@ function Header() {
           </li>
           <li className="nav-li">
             <NavLink
-              to="/react-portfolio/projects"
+              to="/react-portfolio/project"
               end
               className={({ isActive }) =>
                 isActive ? 'nav-li active' : 'nav-li'
