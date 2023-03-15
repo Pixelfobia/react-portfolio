@@ -1,55 +1,55 @@
 [
 	{
 			"id": 1,
-			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"image": "https://raw.githubusercontent.com/Pixelfobia/react-portfolio/main/src/assets/images/forecast.jpg",
 			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
 			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"cardTitle": "Old Portfolio",
-			"cardText": "First attempt at portfolio without bootstrap knowledge.",
-			"buttonText": "Check out my progress"
-	},
-	{
-			"id": 2,
-			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
-			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"cardTitle": "Weather Dashboard",
-			"cardText": "Another first time :D Here it's with APIs, code looks nightmarish but hey, I'm learning :D",
+			"cardTitle": "Day Weather Forecast",
+			"cardText": "This webpage was created so that a user can find current conditions and a 5-day forecast for any city. The developer was tasked with using the Open Weather API to create the dashboard.",
 			"buttonText": "Check your weather"
 	},
 	{
+			"id": 2,
+			"image": "https://raw.githubusercontent.com/Pixelfobia/react-portfolio/main/src/assets/images/finances.jpg",
+			"link": "https://github.com/Pixelfobia/Console-finances",
+			"repo": "https://github.com/Pixelfobia/Console-finances",
+			"cardTitle": "Console Finances",
+			"cardText": "I tried to create a code that parses data from an array to calculate the total months, the total entered, the month with the highest profit and the month with the highest losses.",
+			"buttonText": "Check out my progress"
+	},
+	{
 			"id": 3,
-			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
-			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"cardTitle": "Day Planner",
-			"cardText": "Simple app where you can plan your day, save it for later use, clear everything easly",
+			"image": "https://raw.githubusercontent.com/Pixelfobia/react-portfolio/main/src/assets/images/food.jpg",
+			"link": "https://github.com/Pixelfobia/food-recipe-finder",
+			"repo": "https://github.com/Pixelfobia/food-recipe-finder",
+			"cardTitle": "Food Recipe Finder",
+			"cardText": "It is a cooking recipe search application that together with a team, a design was conceived and executed integrating the data received from several server-side API requests.",
 			"buttonText": "Not much but still worth trying"
 	},
 	{
 			"id": 4,
-			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
-			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"image": "https://raw.githubusercontent.com/Pixelfobia/react-portfolio/main/src/assets/images/password.jpg",
+			"link": "https://github.com/Pixelfobia/password-generator",
+			"repo": "https://github.com/Pixelfobia/password-generator",
 			"cardTitle": "Password Generator",
-			"cardText": "My first contact with JavaScript since about 2010. Struggled a lot with it but makes me even more proud of myself",
+			"cardText": "I create an application to generate a random password based on criteria: At least 10 characters but no more than 64, numbers, lowercase letters, uppercase letters and special characters. The code validate for each input and at least one character type should be selected. Once prompts are answered then the password should be generated and written to the page",
 			"buttonText": "Try it!"
 	},
 	{
 			"id": 5,
-			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
-			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"cardTitle": "Food Recipe Finder",
-			"cardText": "This one was team effort, you can find recipes for your food and possibly have some laugh when doing it",
+			"image": "https://raw.githubusercontent.com/Pixelfobia/react-portfolio/main/src/assets/images/schedule.jpg",
+			"link": "https://github.com/Pixelfobia/day-work-schedule",
+			"repo": "https://github.com/Pixelfobia/day-work-schedule",
+			"cardTitle": "Day Work Schedule",
+			"cardText": "This webpage features a simple day planner for the average work hours of 10AM - 6PM. The developer was provided with the CSS styling as well as a basic outline of HTML content and utilizes javascript and the Moment API to provide a dynamic color display according to the user's current time.",
 			"buttonText": "This one I'm quite proud of"
 	},
 	{
 			"id": 6,
-			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
-			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
-			"cardTitle": "Accessibility Optimization",
+			"image": "https://raw.githubusercontent.com/Pixelfobia/react-portfolio/main/src/assets/images/readme.jpg",
+			"link": "https://github.com/Pixelfobia/readme-generator",
+			"repo": "https://github.com/Pixelfobia/readme-generator",
+			"cardTitle": "Readme Generator",
 			"cardText": "Most of the code was provided, I just had to make it work",
 			"buttonText": "Give it a try"
 	}
