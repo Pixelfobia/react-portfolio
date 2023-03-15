@@ -1,0 +1,56 @@
+[
+	{
+			"id": 1,
+			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"cardTitle": "Old Portfolio",
+			"cardText": "First attempt at portfolio without bootstrap knowledge.",
+			"buttonText": "Check out my progress"
+	},
+	{
+			"id": 2,
+			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"cardTitle": "Weather Dashboard",
+			"cardText": "Another first time :D Here it's with APIs, code looks nightmarish but hey, I'm learning :D",
+			"buttonText": "Check your weather"
+	},
+	{
+			"id": 3,
+			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"cardTitle": "Day Planner",
+			"cardText": "Simple app where you can plan your day, save it for later use, clear everything easly",
+			"buttonText": "Not much but still worth trying"
+	},
+	{
+			"id": 4,
+			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"cardTitle": "Password Generator",
+			"cardText": "My first contact with JavaScript since about 2010. Struggled a lot with it but makes me even more proud of myself",
+			"buttonText": "Try it!"
+	},
+	{
+			"id": 5,
+			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"cardTitle": "Food Recipe Finder",
+			"cardText": "This one was team effort, you can find recipes for your food and possibly have some laugh when doing it",
+			"buttonText": "This one I'm quite proud of"
+	},
+	{
+			"id": 6,
+			"image": "https://github.com/Pixelfobia/react-portfolio/src/assets/images/forecast.jpg",
+			"link": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"repo": "https://github.com/Pixelfobia/Day-Weather-Forecast",
+			"cardTitle": "Accessibility Optimization",
+			"cardText": "Most of the code was provided, I just had to make it work",
+			"buttonText": "Give it a try"
+	}
+]
