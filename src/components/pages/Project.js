@@ -1,7 +1,8 @@
 import React from "react";
+import Footer from "../Footer";
 
 function Discover() {
-  return (
+  return ( <>
     <div>
       <h1>Discover</h1>
       <p>
@@ -16,6 +17,8 @@ function Discover() {
         Etiam vel condimentum magna, quis tempor nulla.
       </p>
     </div>
+    <Footer />
+    </>
   );
 }
 

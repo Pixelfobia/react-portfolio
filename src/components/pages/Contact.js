@@ -1,20 +1,50 @@
 import React from "react";
+import Footer from "../Footer";
 
 function Contact() {
-  return (
-    <footer class="container">
-    <div class="row" id="social">
-      <div class="col-2">
-        <h3>Social</h3>
-      </div>
-      <div class="row col-10">
-        <a href="https://github.com/Pixelfobia" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/windows/1x/github.png" alt="GitHub icon" />GitHub</a>
-        <a href="https://github.com/Pixelfobia/react-portfolio/" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/1x/linkedin.png" alt="LinkedIn icon" />Resume</a>
+  return (<>
+    <div className="contact-form">
+      <div className="container">
+        <div className="area-title text-center">
+          <h2>Interested in Working Together?</h2>
+          <p>Let's explore a partnership. Drop me an email. I'll ask you a few quick questions and then we'll schedule a call to discuss your project.</p>
+        </div>
+        <div className="row">
+          <div className="col-sm-12">
+            <form id="contact-form" action="mail.php" method="post">
+              <div className="row">
+                <div className="col-md-6 form-group">
+                  <label className="sr-only">First Name</label>
+                  <input type="text" className="form-control input-lg" name="name" placeholder="First Name" />
+                    <p className="help-block text-danger"></p>
+                </div>
+                <div className="col-md-6 form-group">
+                  <label className="sr-only">Email</label>
+                  <input type="email" className="form-control input-lg" name="email" placeholder="Email" />
+                    <p className="help-block text-danger"></p>
+                </div>
+                <div className="col-md-12 form-group">
+                  <label className="sr-only">Subject</label>
+                  <input type="text" className="form-control input-lg" name="subject" placeholder="Subject" />
+                    <p className="help-block text-danger"></p>
+                </div>
+                <div className="col-md-12 form-group">
+                  <textarea className="form-control input-lg" rows="20" name="message" placeholder="Message*"></textarea>
+                  <p className="help-block text-danger"></p>
+                </div>
+                <div className="col-md-12 text-center">
+                  <button type="submit" className="button-cv">Send Email</button>
+                </div>
+
+              </div>
+            </form>
+            <div className="ajax-response text-center"></div>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <p>If you would like to contact me best place to do that would be: <a class="contact-link" href="mailto:sergiactive@gmail.com">my email</a></p>
-  </footer>
+    <Footer />
+  </>
   );
 }
 
