@@ -13,7 +13,7 @@ function Home() {
               <br />I make things that make <span className="nowrap">people happy</span>.
             </h1>
             <div className="port-hero--btn">
-              <a className="button-cv" href="./assets/CV_Sergio_Utrera_23.pdf" target="_blank"><i className="fa-solid fa-download"></i> Download CV</a>
+              <a className="button-cv" href="./assets/SergioUtrera_CV_23.pdf" target="_blank"><i className="fa-solid fa-download"></i> Download CV</a>
             </div>
           </div>
           <div className="col">
