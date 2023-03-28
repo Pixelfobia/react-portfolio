@@ -10964,7 +10964,7 @@ header nav ul li {
 header nav ul li a {
   color: var(--gin);
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 700;
   border-bottom: 3px solid var(--greenflesh);
   padding-left: 8px;
@@ -10978,7 +10978,7 @@ header nav ul li a:hover {
 /* Tablet */
 @media (min-width: 768px) {
   header nav ul li a {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 }
 /* Mobile portail */
@@ -10988,7 +10988,7 @@ header nav ul li a:hover {
     padding: 0;
   }
   header nav ul li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 /* Hero */
@@ -11009,7 +11009,7 @@ header nav ul li a:hover {
 }
 
 .hero-title {
-  font-size: 3.4rem;
+  font-size: 3.2rem;
   color: var(--bright-dark);
   z-index: 3;
 }
@@ -11025,13 +11025,13 @@ header nav ul li a:hover {
 /* Tablet */
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 5.4rem;
+    font-size: 4.4rem;
   }
 }
 /* Desktop */
 @media (min-width: 900px) {
   .hero-title {
-    font-size: 7.4rem;
+    font-size: 5.4rem;
     align-content: center;
     padding-top: 60px;
   }

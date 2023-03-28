@@ -4,7 +4,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faCodepen } from '@fortawesome/free-brands-svg-icons'
 import { ExternalLink } from 'react-external-link';
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
 	return (
@@ -26,9 +25,9 @@ function Footer() {
 					<div className="footer-menu mt-3">
 						<nav>
 							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Projects</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="/index">Home</a></li>
+								<li><a href="/projects">Projects</a></li>
+								<li><a href="/contact">Contact</a></li>
 							</ul>
 						</nav>
 					</div>

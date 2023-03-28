@@ -9,11 +9,11 @@ function Home() {
         <div className="row g-3">
           <div className="col">
             <h1 className="hero-title">Oh hey! My name is
-              <span className="nowrap">Sergio Utrera</span>.
+              <span className="nowrap"> Sergio Utrera</span>.
               <br />I make things that make <span className="nowrap">people happy</span>.
             </h1>
             <div className="port-hero--btn">
-              <a className="button-cv" href="./assets/SergioUtrera_CV_23.pdf" target="_blank"><i className="fa-solid fa-download"></i> Download CV</a>
+              <a className="button-cv" href="./assets/SergioUtrera_CV_23.pdf" target="_parent"><i className="fa-solid fa-download"></i> Download CV</a>
             </div>
           </div>
           <div className="col">
